@@ -177,8 +177,9 @@ textarea {
 }
 
 footer {
-    padding-top: 150px;
     display: flex;
     justify-content: center;
     gap: 50px;
+    padding-top: 150px;
+    padding-bottom: 50px;
 }
