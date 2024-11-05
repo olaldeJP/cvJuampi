@@ -1,0 +1,24 @@
+
+a,
+.submitButton {
+    text-decoration: none;
+    color: black;
+    background-color: var(--fondoGris);
+    padding: 10px 20px;
+    border-radius: 9px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.521);
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    display: inline-block;
+
+}
+
+a:hover,
+.submitButton:hover {
+    background-color: #1d4c6c;
+    transform: translateY(-2px);
+}
+
+a:active,
+.submitButton:active {
+    transform: translateY(2px);
+}

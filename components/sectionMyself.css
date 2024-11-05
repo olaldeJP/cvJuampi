@@ -1,0 +1,15 @@
+.sectionMyself {
+    background-color: var(--secundary-Dark);
+}
+
+
+.fondoMainLeft {
+    font-size: 25px;
+
+}
+
+
+.fotoPerfil {
+    width: 240px;
+    border-radius: 50%;
+}

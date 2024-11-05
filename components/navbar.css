@@ -1,0 +1,31 @@
+@import url('./../styleMain.css');
+
+.navbar {
+    background-color: var(--secundary-Dark) !important;
+}
+
+
+.nav-item {
+    margin: 10px;
+}
+
+.navbar-brand {
+    width: 150px;
+    box-shadow: none !important;
+}
+
+.navbar-brand:hover {
+    background-color: var(--primary-Light);
+}
+
+.nav-link {
+    background-color: var(--secundary-Dark);
+    color: var(--primary-Light) !important;
+    border: 2px solid var(--primary-Light);
+}
+
+.nav-link:hover {
+    background-color: var(--primary-Light);
+    color: var(--secundary-Dark) !important;
+    border: 2px solid var(--primary-Light);
+}

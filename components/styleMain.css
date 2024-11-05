@@ -1,0 +1,97 @@
+:root {
+    --primary-Dark: rgb(7, 37, 122);
+    --primary-Dark-Opacity: rgba(11, 53, 168, 0.459);
+    --secundary-Dark: rgba(44, 43, 43, 0.932);
+    --secundary-Dark-Opacity: rgba(44, 43, 43, 0.932);
+    --primary-Light: rgb(165, 241, 217);
+    --primary-Light-Opacity: rgba(69, 134, 113, 0.459);
+    --botonClick: #1d4c6c
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    display: grid;
+    place-content: center;
+    font-family: monospace;
+    background-color: rgba(0, 0, 0, 0.89) !important;
+}
+
+p,
+h3 {
+    color: var(--primary-Light);
+}
+
+.fondoMain {
+    background: url(../imagenes/codigo.jpg) fixed;
+    height: 90vh;
+    background-size: cover;
+}
+
+
+
+#textoDescription {
+    background-color: rgba(139, 138, 138, 0.686);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.521);
+    border-radius: 10px;
+
+}
+
+
+
+.sectionProyects {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+
+}
+
+
+#skills {
+
+    gap: 50px;
+}
+
+.borders {
+    border: solid 4px var(--primary-Light);
+    box-shadow: 3px 3px 10px var(--primary-Light-Opacity);
+    border-radius: 6px;
+}
+
+.icons {
+    width: 5%;
+}
+
+.sectionForm {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+label {
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+
+textarea {
+    resize: none;
+    margin-bottom: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
