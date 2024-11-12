@@ -2,8 +2,8 @@
     width: 350px;
     height: 400px;
     perspective: 1000px;
-
-    margin: 20px auto;
+    min-height: 450px;
+    margin-bottom: 20px;
 }
 
 .proyectCard-inner {

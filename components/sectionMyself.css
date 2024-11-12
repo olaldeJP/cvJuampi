@@ -25,7 +25,19 @@
 
 }
 
-@media (max-width: 550px) {
+
+
+@media (max-width: 750px) {
+    .aDescript {
+        padding: 15px !important;
+    }
+
+    .iconoDescrip {
+        width: 50px;
+    }
+}
+
+@media (max-width: 600px) {
 
     .sectionMyself a {
         width: 70px !important;
@@ -36,7 +48,13 @@
         width: 150px;
     }
 
+    .aDescript {
+        padding: 5px !important;
+    }
+
     .iconoDescrip {
         width: 50px;
     }
+
+
 }
