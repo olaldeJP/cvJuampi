@@ -65,6 +65,10 @@ h3 {
     gap: 50px;
 }
 
+.separar {
+    padding-bottom: 140px;
+}
+
 .borders {
     border: solid 4px var(--primary-Light);
     box-shadow: 3px 3px 10px var(--primary-Light-Opacity);
