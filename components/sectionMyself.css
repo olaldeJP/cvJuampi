@@ -3,6 +3,10 @@
 }
 
 
+.sectionIconsDescrip {
+    background-color: var(--secundary-Dark);
+}
+
 .fondoMainLeft {
     font-size: 25px;
 
@@ -16,4 +20,16 @@
 
 .iconoDescrip {
     width: 90px;
+}
+
+@media (max-width: 850px) {
+    .sectionMyself {
+        flex-direction: column-reverse !important;
+    }
+
+    .sectionMyself a {
+        width: 140px;
+
+    }
+
 }
