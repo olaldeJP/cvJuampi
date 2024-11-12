@@ -1,0 +1,9 @@
+.banderas {
+    width: 30px;
+}
+
+@media (max-width:980px) {
+    .banderas {
+        padding: 5px;
+    }
+}
