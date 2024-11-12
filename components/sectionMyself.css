@@ -1,11 +1,7 @@
-.sectionMyself {
-    background-color: var(--secundary-Dark);
-}
+.sectionMyself {}
 
 
-.sectionIconsDescrip {
-    background-color: var(--secundary-Dark);
-}
+.sectionIconsDescrip {}
 
 .fondoMainLeft {
     font-size: 25px;
@@ -32,4 +28,20 @@
 
     }
 
+}
+
+@media (max-width: 550px) {
+
+    .sectionMyself a {
+        width: 70px !important;
+
+    }
+
+    .fotoPerfil {
+        width: 150px;
+    }
+
+    .iconoDescrip {
+        width: 50px;
+    }
 }

@@ -35,8 +35,14 @@
 
 }
 
+.a-flag {
+    border: 2px solid var(--secundary-Dark);
+}
+
 @media (max-width:992px) {
-    .nav-link {
-        border-left: 0px solid var(--primary-Light) !important;
+
+
+    .nav-responsive {
+        padding-left: 5px !important;
     }
 }
