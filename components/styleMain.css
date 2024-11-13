@@ -34,7 +34,7 @@ h3 {
 }
 
 .fondoMain {
-    background: url(../imagenes/codigo.jpg) fixed;
+    background: url(../imagenes/codigo.webp) fixed;
     height: 90vh;
     background-size: cover;
 }

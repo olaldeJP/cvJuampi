@@ -3,10 +3,10 @@ document.addEventListener("DOMContentLoaded", function () {
   const avatar = document.getElementById("avatar");
 
   setTimeout(() => {
-    avatar.src = "imagenes/Avatar-Maker-B.png";
+    avatar.src = "imagenes/Avatar-Maker-B.webp";
 
     setTimeout(() => {
-      avatar.src = "imagenes/Avatar-Maker.png";
+      avatar.src = "imagenes/Avatar-Maker.webp";
     }, 2000);
   }, 0);
 });
