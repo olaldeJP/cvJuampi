@@ -35,7 +35,7 @@ h3 {
 
 .fondoMain {
     background: url(../imagenes/codigo.webp) fixed;
-    height: 90vh;
+    height: 60vh;
     background-size: cover;
 }
 
@@ -81,19 +81,11 @@ h3 {
 
 @media (max-width:900px) {
     .fondoMain {
-        height: 45vh;
+        height: 0px !important;
         ;
     }
 
     p {
         font-size: 20px;
     }
-}
-
-@media (max-width:600px) {
-    .fondoMain {
-        height: 45vh;
-        ;
-    }
-
 }
