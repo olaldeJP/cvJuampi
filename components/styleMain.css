@@ -79,7 +79,7 @@ h3 {
     width: 5%;
 }
 
-@media (max-width:600px) {
+@media (max-width:900px) {
     .fondoMain {
         height: 45vh;
         ;
@@ -88,4 +88,12 @@ h3 {
     p {
         font-size: 20px;
     }
+}
+
+@media (max-width:600px) {
+    .fondoMain {
+        height: 45vh;
+        ;
+    }
+
 }
